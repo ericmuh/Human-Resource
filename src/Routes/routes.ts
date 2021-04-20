@@ -342,7 +342,7 @@ const AdminRoutes = [
 */
   {
     path: "/projects",
-    name: "Donor Projects",
+    name: "Projects",
     icon: projects,
     component: ProjectList,
     layout: "/admin",
