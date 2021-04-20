@@ -1,0 +1,61 @@
+{
+  "name": "human-resource",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "chartist": "^0.11.4",
+    "formik": "^2.2.6",
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-calendar": "^3.2.0",
+    "react-chartist": "^0.14.3",
+    "react-dom": "^17.0.1",
+    "react-google-maps": "^9.4.5",
+    "react-notification-system": "^0.4.0",
+    "react-router": "5.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-select": "^4.1.0",
+    "react-toggle": "^4.1.1",
+    "sweetalert2": "^10.13.0",
+    "typescript": "^4.0.5",
+    "yup": "^0.32.8"
+  },
+  "license": "unlicensed",
+  "devDependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/googlemaps": "^3.43.2",
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/react": "^17.0.0",
+    "@types/react-bootstrap": "^0.32.24",
+    "@types/react-calendar": "^3.1.2",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-select": "^4.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css",
+    "minify-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css --source-map true"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
